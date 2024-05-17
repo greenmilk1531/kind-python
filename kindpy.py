@@ -27,8 +27,8 @@ def gui텍스트(text):
 def gui버튼(button):
     button1 = tkinter.Button(window, text=button, command=guibuttonn)
     button1.pack()
-def guibuttonn():
-    print("hi")
+def guibuttonn(a):
+    print(a)
 def 적기(a,b):
     f = open(a, 'w')
     f.write(b)
